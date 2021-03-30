@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Chat from "./Chat";
 import Login from "./Login";
 import { useStateProvider } from "./StateProvider";
